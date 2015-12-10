@@ -91,3 +91,13 @@ for i in m.keys():
     mt[s] = m.get(i)
 print(mt)
 
+# T.8.4
+import random
+s = [random.choice(range(6)), random.choice(range(8)), random.choice(range(10))]
+k = s.copy()
+k.sort()
+print(s)
+if all(s[i] == k[i] for i in range(len(s))):
+    print('yes')
+else:
+    print('no')
