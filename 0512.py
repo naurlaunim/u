@@ -101,3 +101,4 @@ if all(s[i] == k[i] for i in range(len(s))):
     print('yes')
 else:
     print('no')
+
