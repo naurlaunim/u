@@ -110,18 +110,22 @@ f1.print()
 f2.print()
 
 g = f1 * f2
+g.reduce()
 print('Multiplying: ', end = '')
 g.print()
 
 g = f1 / f2
+g.reduce()
 print('Division: ', end = '')
 g.print()
 
 g = f1 + f2
+g.reduce()
 print('Addition: ', end = '')
 g.print()
 
 g = f1 - f2
+g.reduce()
 print('Subtracting: ', end = '')
 g.print()
 
