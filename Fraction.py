@@ -86,7 +86,6 @@ class Fraction:
     def reduce(self):
         # TODO: reduce fraction
         a = b = 0.1
-        # print(a, b, '1')
         while a != self.denominator and b != self.denominator:
             a = self.numerator
             b = self.denominator
