@@ -1,2 +1,2 @@
-# u
-this is my homeworks in Python for university.
+# u is for university
+some homework in Python 
